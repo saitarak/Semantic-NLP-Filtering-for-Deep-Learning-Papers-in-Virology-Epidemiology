@@ -17,10 +17,10 @@ Filtering: Only papers that meet specific criteria are retained for analysis. Th
 
 Classification: Each relevant paper is classified based on the topic it covers, such as "computer vision" or "text mining" or "both" or "other."
 
-Method Extraction: Specific deep learning techniques or methods (e.g., "CNN," "transformer") are extracted from each abstract.
+Method Extraction: Extract the method each relevant paper is using.
 
 Filtering Approach
-For filtering, we use transformer-based embeddings to compute semantic similarity between the abstracts and a list of predefined keywords related to deep learning and virology. Specifically:
+For filtering, we use transformer-based embeddings to compute semantic similarity between the abstracts and a mean of predefined keywords related to deep learning and virology.
 
 Embeddings Generation: We use Bio_ClinicalBERT to generate embeddings for both the paper abstracts and the keyword list.
 Similarity Check: The similarity between each abstract’s embedding and the mean of keyword embeddings is computed using cosine similarity.
