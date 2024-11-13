@@ -25,15 +25,16 @@ Unlike simple keyword-based filtering, which can miss relevant papers if specifi
 Captures Context: Embeddings take into account the entire context of each paper and keywords, not just exact matches.
 Increases Recall: Papers that are semantically similar to the keywords but don’t contain exact matches are still captured.
 Reduces Noise: Papers unrelated to deep learning in virology are more accurately filtered out.
-Classification Approach
-The filtered papers are then classified using a zero-shot classification model (facebook/bart-large-mnli). Labels such as "computer vision," "text mining," "both," and "other" are used to categorize each paper. Zero-shot classification is chosen to allow flexible, label-free categorization.
 
-Method Extraction Approach
+### Classification Approach
+The filtered papers are then classified using a zero-shot classification model (facebook/bart-large-mnli). Labels such as "computer vision," "text mining," "both," and "other" are used to categorize each paper. Zero-shot classification using scientific language model is chosen to allow flexible, label-free categorization.
+
+### Method Extraction Approach
 To extract specific methods used in each paper:
 
-Rule-Based Pattern Matching: We define a dictionary of regex patterns for deep learning techniques, including "convolutional neural network," "transformer," and "text mining."
-Matching Specific Methods: Each abstract is scanned against these patterns, and the matching method is reported. If no match is found, a general label like "Deep learning based" is assigned.
-This approach ensures that each paper is associated with a precise technique, fulfilling the task’s requirement for specific method extraction.
+Rule-Based Pattern Matching: We define a dictionary of regex patterns, including "convolutional neural network," "transformer," and "text mining" and more.
+Matching Specific Methods: Each abstract is scanned against these patterns, and the matching method is reported. .
+This approach ensures that each paper is associated with a precise technique, fulfilling the requirement of specific method extraction.
 
 Results and Dataset Statistics
 The system outputs three main datasets:
