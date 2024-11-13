@@ -65,24 +65,26 @@ Transformer Architecture                     1
 
 For more statistics you can refer the data folder to have a look at method_extraction.csv
 
+## Installation and Usage
+Prerequisites
+Ensure that you have the following installed:
+
+Python 3.6 or higher
+Required packages in requirements.txt
+
 ## Required packages
 Installation
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your_username/your_repository.git
+### Clone the repository:
+<git clone https://github.com/your_username/your_repository.git>
 cd your_repository
-Install dependencies:
 
-bash
-Copy code
+Install dependencies:
 pip install -r requirements.txt
-Running the Pipeline
+##Running the Pipeline
 Data Preprocessing, Filtering, and Classification
 
-bash
-Copy code
+
 python src/data_processing.py
 Method Extraction
 
