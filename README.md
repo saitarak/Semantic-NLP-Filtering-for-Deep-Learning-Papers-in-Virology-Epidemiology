@@ -87,5 +87,5 @@ python Method_extraction.py
 csv files will be saved to the data directory.
 
 #### Output ####
-![Pie Chart](Classification of relevant papers.png)
+![plot](Classification of relevant papers.png)
 
