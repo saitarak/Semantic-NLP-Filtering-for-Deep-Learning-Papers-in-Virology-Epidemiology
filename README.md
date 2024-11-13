@@ -41,29 +41,29 @@ The system statistics are as follows: <br />
 Total papers in original dataset: 11450 papers <br />
 Papers retained after filtering: 5306 papers <br />
 
-Papers categorized by class:
-Computer Vision: 106
-Text Mining: 405
-Both: 2053
-Other: 2742
+Papers categorized by class: <br />
+Computer Vision: 106 <br />
+Text Mining: 405 <br />
+Both: 2053 <br />
+Other: 2742 <br />
 
-Methods Extracted:
-Deep learning relevant(but not defined)      2677
-Deep Learning                                1037
-Language Modeling                            442
-Convolutional Neural Network                 322
-Text Mining                                  238
-Recurrent Neural Network                     187
-Image Processing                             116
-Feedforward Neural Network                   86
-Vision Transformer                           76
-Object Recognition                           40
-Generative AI                                33
-Large Language Model                         20
-GPT (Transformer based)                      19
-BERT (Transformer based)                     8
-Computational Linguistics                    4
-Transformer Architecture                     1
+Methods Extracted: <br />
+Deep learning relevant(but not defined)      2677 <br />
+Deep Learning                                1037 <br />
+Language Modeling                            442 <br />
+Convolutional Neural Network                 322 <br />
+Text Mining                                  238 <br />
+Recurrent Neural Network                     187 <br />
+Image Processing                             116 <br />
+Feedforward Neural Network                   86 <br />
+Vision Transformer                           76 <br />
+Object Recognition                           40 <br />
+Generative AI                                33 <br />
+Large Language Model                         20 <br />
+GPT (Transformer based)                      19 <br />
+BERT (Transformer based)                     8 <br />
+Computational Linguistics                    4 <br />
+Transformer Architecture                     1 <br />
 
 For more statistics you can refer the data folder to have a look at method_extraction.csv
 
