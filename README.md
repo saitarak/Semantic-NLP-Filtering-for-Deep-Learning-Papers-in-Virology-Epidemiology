@@ -65,7 +65,7 @@ BERT (Transformer based)                     8 <br />
 Computational Linguistics                    4 <br />
 Transformer Architecture                     1 <br />
 
-<img src="https://github.com/saitarak/Semantic-NLP-Filtering-for-Deep-Learning-Papers-in-Virology-Epidemiology/blob/main/Classification%20of%20relevant%20papers.png" width="900">
+<img src="https://github.com/saitarak/Semantic-NLP-Filtering-for-Deep-Learning-Papers-in-Virology-Epidemiology/blob/main/Classification%20of%20relevant%20papers.png" width="400">
 
 For more statistics you can refer the data folder to have a look at method_extraction.csv
 
