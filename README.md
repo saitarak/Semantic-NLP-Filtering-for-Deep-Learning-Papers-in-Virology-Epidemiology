@@ -36,30 +36,36 @@ Rule-Based Pattern Matching: We define a dictionary of regex patterns, including
 Matching Specific Methods: Each abstract is scanned against these patterns, and the matching method is reported. .
 This approach ensures that each paper is associated with a precise technique, fulfilling the requirement of specific method extraction.
 
-Results and Dataset Statistics
-The system outputs three main datasets:
-
-Filtered Dataset: Contains only papers relevant to deep learning in virology/epidemiology.
-Classified Dataset: Each paper is categorized as "computer vision," "text mining," "both," or "other."
-Method Extraction Dataset: The specific method used in each paper is extracted, providing insight into the techniques discussed.
-Example Statistics
-Total papers in original dataset: X
-Papers retained after filtering: Y
+## Dataset Statistics
+The system statistics are as follows:
+Total papers in original dataset: 11450 papers
+Papers retained after filtering: 5306 papers
 Papers categorized by class:
-Computer Vision: A
-Text Mining: B
-Both: C
-Other: D
+Computer Vision: 106
+Text Mining: 405
+Both: 2053
+Other: 2742
 Methods Extracted:
-Convolutional Neural Network: X1
-Transformer: X2
-... (list all other methods)
-Installation and Usage
-Prerequisites
-Ensure that you have the following installed:
+Deep learning relevant(but not defined)      2677
+Deep Learning                                1037
+Language Modeling                            442
+Convolutional Neural Network                 322
+Text Mining                                  238
+Recurrent Neural Network                     187
+Image Processing                             116
+Feedforward Neural Network                   86
+Vision Transformer                           76
+Object Recognition                           40
+Generative AI                                33
+Large Language Model                         20
+GPT (Transformer based)                      19
+BERT (Transformer based)                     8
+Computational Linguistics                    4
+Transformer Architecture                     1
 
-Python 3.6 or higher
-Required packages in requirements.txt
+For more statistics you can refer the data folder to have a look at method_extraction.csv
+
+## Required packages
 Installation
 Clone the repository:
 
