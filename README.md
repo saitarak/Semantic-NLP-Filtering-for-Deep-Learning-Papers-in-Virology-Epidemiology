@@ -38,8 +38,10 @@ This approach ensures that each paper is associated with a precise technique, fu
 
 ## Dataset Statistics
 The system statistics are as follows:
-<Total papers in original dataset: 11450 papers>
+Total papers in original dataset: 11450 papers
 Papers retained after filtering: 5306 papers
+
+![plot]("C:\Users\saita\OneDrive\Desktop\Semantic-NLP-Filtering-for-Deep-Learning-Papers-in-Virology-Epidemiology\Classification of relevant papers.png")
 
 Papers categorized by class:
 Computer Vision: 106
