@@ -80,17 +80,17 @@ pip install -r requirements.txt
 
 ### Running the Pipeline
 Filtering
+```
 python src/filtering.py
+```
 
 Classification
+```
 python src/classification.py
+```
 
 Method Extraction
+```
 python src/method_extraction.py
+```
 csv files will be saved to the data directory.
-
-Contributing
-Contributions are welcome! Please submit a pull request with clear descriptions and examples.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
