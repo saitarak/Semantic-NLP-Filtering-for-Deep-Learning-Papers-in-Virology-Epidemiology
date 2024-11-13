@@ -65,32 +65,19 @@ Transformer Architecture                     1
 
 For more statistics you can refer the data folder to have a look at method_extraction.csv
 
-## Installation and Usage
-Prerequisites
-Ensure that you have the following installed:
-
-Python 3.6 or higher
-Required packages in requirements.txt
-
-## Required packages
-Installation
-
-Install dependencies:
-pip install -r requirements.txt
-
-### Running the Pipeline
+## Running the Pipeline
 Filtering
 ```
-python src/filtering.py
+python Filtering.py
 ```
 
 Classification
 ```
-python src/classification.py
+python classification.py
 ```
 
 Method Extraction
 ```
-python src/method_extraction.py
+python Method_extraction.py
 ```
 csv files will be saved to the data directory.
