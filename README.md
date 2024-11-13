@@ -37,9 +37,9 @@ Matching Specific Methods: Each abstract is scanned against these patterns, and 
 This approach ensures that each paper is associated with a precise technique, fulfilling the requirement of specific method extraction.
 
 ## Dataset Statistics
-The system statistics are as follows:__
-Total papers in original dataset: 11450 papers__
-Papers retained after filtering: 5306 papers__
+The system statistics are as follows: <br />
+Total papers in original dataset: 11450 papers <br />
+Papers retained after filtering: 5306 papers <br />
 
 Papers categorized by class:
 Computer Vision: 106
