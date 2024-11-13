@@ -75,24 +75,19 @@ Required packages in requirements.txt
 ## Required packages
 Installation
 
-### Clone the repository:
-```
-git clone [https://github.com/saitarak/Semantic-NLP-Filtering-for-Deep-Learning-Papers-in-Virology-Epidemiology]
-```
-
 Install dependencies:
 pip install -r requirements.txt
-##Running the Pipeline
-Data Preprocessing, Filtering, and Classification
 
+### Running the Pipeline
+Filtering
+python src/filtering.py
 
-python src/data_processing.py
+Classification
+python src/classification.py
+
 Method Extraction
-
-bash
-Copy code
 python src/method_extraction.py
-Results will be saved to the data/ directory.
+csv files will be saved to the data directory.
 
 Contributing
 Contributions are welcome! Please submit a pull request with clear descriptions and examples.
