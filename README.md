@@ -4,18 +4,18 @@
 This project aims to:
 
 Filter scientific papers to identify those relevant to deep learning approaches in virology and epidemiology.
-Classify relevant papers into specific categories like "computer vision," "text mining," or both.
-Extract and Report the specific deep learning method used in each relevant paper, such as "convolutional neural network" or "transformer."
+Classify relevant papers into specific categories like "computer vision," "text mining."
+Extract and Report the name of the method used for each relevant paper.
 The project employs various NLP techniques and transformer-based embeddings to achieve these tasks with high accuracy.
 
-Data Processing Pipeline
+## Data Processing Pipeline
 The pipeline involves the following main stages:
 
 Data Preprocessing: Text is cleaned by converting to lowercase, removing numbers, punctuation, non-word characters, and stop words. This step reduces noise in the text and improves embedding accuracy.
 
-Filtering: Only papers that meet specific criteria are retained for analysis. This step involves computing semantic similarity between the abstract and predefined deep learning keywords related to virology and epidemiology.
+Filtering: Only papers that meet specific criteria are retained for analysis. This step involves computing semantic similarity between the abstract and predefined deep learning approaches in virology and epidemiology keywords.
 
-Classification: Each relevant paper is classified based on the topic it covers, such as "computer vision" or "text mining."
+Classification: Each relevant paper is classified based on the topic it covers, such as "computer vision" or "text mining" or "both" or "other."
 
 Method Extraction: Specific deep learning techniques or methods (e.g., "CNN," "transformer") are extracted from each abstract.
 
