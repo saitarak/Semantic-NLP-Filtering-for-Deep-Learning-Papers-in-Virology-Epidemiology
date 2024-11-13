@@ -37,11 +37,9 @@ Matching Specific Methods: Each abstract is scanned against these patterns, and 
 This approach ensures that each paper is associated with a precise technique, fulfilling the requirement of specific method extraction.
 
 ## Dataset Statistics
-The system statistics are as follows:
-Total papers in original dataset: 11450 papers
-Papers retained after filtering: 5306 papers
-
-![plot]("C:\Users\saita\OneDrive\Desktop\Semantic-NLP-Filtering-for-Deep-Learning-Papers-in-Virology-Epidemiology\Classification of relevant papers.png")
+The system statistics are as follows:__
+Total papers in original dataset: 11450 papers__
+Papers retained after filtering: 5306 papers__
 
 Papers categorized by class:
 Computer Vision: 106
@@ -85,7 +83,4 @@ Method Extraction
 python Method_extraction.py
 ```
 csv files will be saved to the data directory.
-
-#### Output ####
-![plot](Classification of relevant papers.png)
 
