@@ -77,8 +77,7 @@ Installation
 
 ### Clone the repository:
 ```
-git clone https://github.com/saitarak/Semantic-NLP-Filtering-for-Deep-Learning-Papers-in-Virology-Epidemiology
-cd your_repository
+git clone [https://github.com/saitarak/Semantic-NLP-Filtering-for-Deep-Learning-Papers-in-Virology-Epidemiology]
 ```
 
 Install dependencies:
