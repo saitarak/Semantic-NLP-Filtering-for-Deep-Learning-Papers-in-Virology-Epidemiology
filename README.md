@@ -40,11 +40,13 @@ This approach ensures that each paper is associated with a precise technique, fu
 The system statistics are as follows:
 Total papers in original dataset: 11450 papers
 Papers retained after filtering: 5306 papers
+
 Papers categorized by class:
 Computer Vision: 106
 Text Mining: 405
 Both: 2053
 Other: 2742
+
 Methods Extracted:
 Deep learning relevant(but not defined)      2677
 Deep Learning                                1037
