@@ -88,6 +88,7 @@ csv files will be saved to the data directory.
 
 
 
+````php
 <?php
 require 'vendor/autoload.php';  // Composer's autoloader.
 use SamChristy\PieChart\PieChartGD;
@@ -104,4 +105,5 @@ $chart->addSlice('Other',            5, '#7D60A0');
 
 $chart->draw();
 $chart->outputPNG();
+````
 
