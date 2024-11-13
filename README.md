@@ -76,10 +76,10 @@ Required packages in requirements.txt
 Installation
 
 ### Clone the repository:
-'''
-git clone https://github.com/your_username/your_repository.git
+```
+git clone https://github.com/saitarak/Semantic-NLP-Filtering-for-Deep-Learning-Papers-in-Virology-Epidemiology
 cd your_repository
-'''
+```
 
 Install dependencies:
 pip install -r requirements.txt
