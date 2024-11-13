@@ -76,8 +76,10 @@ Required packages in requirements.txt
 Installation
 
 ### Clone the repository:
-<git clone https://github.com/your_username/your_repository.git>
+'''
+git clone https://github.com/your_username/your_repository.git
 cd your_repository
+'''
 
 Install dependencies:
 pip install -r requirements.txt
