@@ -65,6 +65,8 @@ BERT (Transformer based)                     8 <br />
 Computational Linguistics                    4 <br />
 Transformer Architecture                     1 <br />
 
+![alt text]()
+
 For more statistics you can refer the data folder to have a look at method_extraction.csv
 
 ## Running the Pipeline
