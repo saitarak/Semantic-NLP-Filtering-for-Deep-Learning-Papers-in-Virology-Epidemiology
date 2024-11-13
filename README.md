@@ -85,3 +85,23 @@ Method Extraction
 python Method_extraction.py
 ```
 csv files will be saved to the data directory.
+
+
+```
+<?php
+require 'vendor/autoload.php';  // Composer's autoloader.
+use SamChristy\PieChart\PieChartGD;
+
+$chart = new PieChartGD(600, 375);
+
+$chart->setTitle('Browser Usage Statistics (January - April)');
+// Method chaining coming soon!
+$chart->addSlice('Google Chrome',   27, '#4A7EBB');
+$chart->addSlice('Mozilla Firefox', 23, '#DA8137');
+$chart->addSlice('Apple Safari',    11, '#9BBB59');
+$chart->addSlice('Opera',            3, '#BE4B48');
+$chart->addSlice('Other',            5, '#7D60A0');
+
+$chart->draw();
+$chart->outputPNG();
+```
